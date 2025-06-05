@@ -3,7 +3,7 @@ name: Build Docker Image modfied by jason120au
 on:
   push:
     branches:
-      - main  # or your default branch
+      - pdk-3.4.0 
   pull_request:
 
 jobs:
