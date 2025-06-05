@@ -27,5 +27,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          push: false
-          tags: your-dockerhub-username/your-image-name:latest
+          push: true
+          tags: jason120au/puppet8-perforce-changes:latest
